@@ -1,0 +1,19 @@
+/* ===== Design tokens ===== */
+:root {
+    --color-red: rgb(177, 38, 66);
+    --color-blue: #1f81f1;
+    --color-green: #15d915d7;
+    --color-purple: rgb(82, 24, 112);
+    --color-green-black: #313f33;
+    --color-white: #fcfcfc;
+}
+
+h1 {
+    color: var(--color-blue);
+}
+body {
+  font-size: 14px;
+  color: var(--color-green-black);
+  background-color: var(--color-white);
+}
+
