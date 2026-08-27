@@ -8,6 +8,10 @@
     --color-white: #fcfcfc;
 }
 
+header {
+    align-items: center;
+}
+
 h1 {
     color: var(--color-blue);
 }
