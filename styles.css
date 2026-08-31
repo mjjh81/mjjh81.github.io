@@ -18,6 +18,62 @@ h1 {
     color: var(--color-blue);
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--color-green-black);
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: var(--color-blue);
+}
+
+ul.bottom-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-green-black);
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    grid-column: 1fr 3fr 1fr;
+    background-color: var(--color-green-black);
+    color: var(--color-white);
+    text-decoration: none;
+    height: 40px;
+}
+
+a {
+    display: block;
+    color: var(--color-white);
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    flex: 1;
+}
+
+a:hover {
+    background-color: var(--color-blue);
+}
+
 body {
   font-size: 14px;
   color: var(--color-green-black);
@@ -35,7 +91,7 @@ body {
     grid-template-rows: 1fr 3fr;
 }
 
-.images {
+.card-images {
     display: grid;
     grid-template-rows: auto;
     align-items: center;
