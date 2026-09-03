@@ -1,4 +1,3 @@
-/* ===== Design tokens ===== */
 :root {
     --color-red: rgb(177, 38, 66);
     --color-blue: #1f81f1;
@@ -6,6 +5,11 @@
     --color-purple: rgb(82, 24, 112);
     --color-green-black: #313f33;
     --color-white: #fcfcfc;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
 }
 
 header {
@@ -148,5 +152,9 @@ body {
 
 .div-card-title {
     overflow: auto;
+}
+
+footer {
+    font-weight: bold;
 }
 
